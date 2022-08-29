@@ -1,0 +1,190 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Border */
+.border-1 {
+  border-width: 1px;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-gray {
+  border-color: #999999;
+}
+
+/* Padding */
+.p-10 {
+  padding: 10px;
+}
+
+/* Height */
+.h-75-screen {
+  height: 75vh;
+}
+
+/* Display */
+.grid {
+  display: grid;
+}
+.flex {
+  display: flex;
+}
+
+/* Grid Template Columns / Rows */
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+/* Grid Column Start / End */
+.col-start-1 {
+  grid-column-start: 1;
+}
+.col-start-2 {
+  grid-column-start: 2;
+}
+.col-start-3 {
+  grid-column-start: 3;
+}
+.col-start-4 {
+  grid-column-start: 4;
+}
+.col-start-5 {
+  grid-column-start: 5;
+}
+.col-start-6 {
+  grid-column-start: 6;
+}
+.col-start-7 {
+  grid-column-start: 7;
+}
+.col-start-8 {
+  grid-column-start: 8;
+}
+.col-end-1 {
+  grid-column-end: 1;
+}
+.col-end-2 {
+  grid-column-end: 2;
+}
+.col-end-3 {
+  grid-column-end: 3;
+}
+.col-end-4 {
+  grid-column-end: 4;
+}
+.col-end-5 {
+  grid-column-end: 5;
+}
+.col-end-6 {
+  grid-column-end: 6;
+}
+.col-end-7 {
+  grid-column-end: 7;
+}
+.col-end-8 {
+  grid-column-end: 8;
+}
+
+/* Grid Row Start / End */
+.row-start-1 {
+  grid-row-start: 1;
+}
+.row-start-2 {
+  grid-row-start: 2;
+}
+.row-start-3 {
+  grid-row-start: 3;
+}
+.row-start-4 {
+  grid-row-start: 4;
+}
+.row-start-5 {
+  grid-row-start: 5;
+}
+.row-start-6 {
+  grid-row-start: 6;
+}
+.row-start-7 {
+  grid-row-start: 7;
+}
+.row-start-8 {
+  grid-row-start: 8;
+}
+.row-end-1 {
+  grid-row-end: 1;
+}
+.row-end-2 {
+  grid-row-end: 2;
+}
+.row-end-3 {
+  grid-row-end: 3;
+}
+.row-end-4 {
+  grid-row-end: 4;
+}
+.row-end-5 {
+  grid-row-end: 5;
+}
+.row-end-6 {
+  grid-row-end: 6;
+}
+.row-end-7 {
+  grid-row-end: 7;
+}
+.row-end-8 {
+  grid-row-end: 8;
+}
+
+/* Justify Content */
+.justify-center {
+  justify-content: center;
+}
+
+/* Align Items */
+.item-center {
+  align-items: center;
+}
+
+/* Font Color */
+.text-yellow {
+  color: #FFFF00;
+}
+
+/* Font Size */
+.text-xl {
+  font-size: 30px;
+}
+
+/* Background Color */
+.bg-yellow {
+  background-color: #FFFF00;
+}
+.bg-orange {
+  background-color: #FFC800;
+}
+.bg-blue {
+  background-color: #3D85C6;
+}
+.bg-green {
+  background-color: #00A15D;
+}
+.bg-light-orange {
+  background-color: #FED849;
+}
+.bg-pink {
+  background-color: #FF9FD5;
+}
+.bg-purple {
+  background-color: #8E7CC3;
+}
+.bg-red {
+  background-color: #E06666;
+}
