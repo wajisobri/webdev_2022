@@ -4,7 +4,12 @@
 }
 
 /* Heading dan Paragraph */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.25;
 }
 h1 {
@@ -209,13 +214,16 @@ h6 {
 
 /* Display */
 .block {
-  display: block;
+  display: block !important;
 }
 .inline {
-  display: inline;
+  display: inline !important;
 }
 .inline-block {
-  display: inline-block;
+  display: inline-block !important;
+}
+.none {
+  display: none !important;
 }
 
 /* Flex */
@@ -553,14 +561,4 @@ h6 {
   .lg-hide {
     display: none !important;
   }
-}
-.display-none {
-  display: none !important;
-}
-.hide {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
 }
