@@ -1,0 +1,232 @@
+* {
+  font-family: Kanit;
+}
+
+.wrapper {
+  position: relative;
+  background-color: #72D4FC;
+  /* background-image: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3) ); */
+  overflow: hidden;
+}
+
+#beach {
+  /* filter: brightness(60%); */
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+#hill {
+  /* filter: brightness(60%); */
+  width: 25%;
+  right: 0;
+  top: 46%;
+  position: absolute;
+}
+
+#title {
+  color: #F2CE99;
+  line-height: 0.9;
+  letter-spacing: 0.05em;
+  font-size: 6em;
+  font-weight: 800;
+  position: relative;
+  bottom: 16px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFFFFF;
+}
+
+#water-effect {
+  width: 75%;
+  top: 58%;
+  left: 9%;
+  position: absolute;
+}
+
+#ball {
+  top: 80%;
+  left: 65%;
+  width: 5%;
+  position: absolute;
+}
+
+#surfing-board {
+  top: 45%;
+  left: 73%;
+  width: 7%;
+  position: absolute;
+}
+
+#sun {
+  width: 10%;
+  top: 25%;
+  left: 20%;
+  position: absolute;
+}
+
+#cloud-1 {
+  width: 25%;
+  top: 30%;
+  left: -9%;
+  position: absolute;
+}
+
+#cloud-2 {
+  width: 20%;
+  left: 12%;
+  top: 10%;
+  position: absolute;
+}
+
+#cloud-3 {
+  width: 10%;
+  top: 12%;
+  left: 45%;
+  position: absolute;
+}
+
+#cloud-4 {
+  width: 25%;
+  left: 55%;
+  top: 18%;
+  position: absolute;
+}
+
+#cloud-5 {
+  width: 10%;
+  left: 80%;
+  top: 12%;
+  position: absolute;
+}
+
+#boat-1 {
+  width: 15%;
+  left: 70%;
+  top: 57%;
+  position: absolute;
+}
+
+#coconut-stem {
+  width: 7%;
+  left: 5%;
+  top: 35%;
+  position: absolute;
+}
+
+#coconut-branch-1 {
+  width: 5%;
+  left: 11%;
+  top: 35%;
+  position: absolute;
+}
+
+#coconut-branch-2 {
+  width: 9%;
+  left: 11%;
+  top: 35%;
+  position: absolute;
+}
+
+#coconut-branch-3 {
+  width: 12%;
+  left: 11%;
+  top: 28%;
+  position: absolute;
+}
+
+#coconut-branch-4 {
+  width: 9%;
+  left: 3%;
+  top: 18%;
+  position: absolute;
+}
+
+#coconut-branch-5 {
+  width: 12%;
+  left: -0.5%;
+  top: 31%;
+  position: absolute;
+}
+
+#paralayang {
+  width: 8%;
+  left: 30%;
+  top: 15%;
+  position: absolute;
+}
+
+#ship-1 {
+  width: 7%;
+  left: 25%;
+  top: 48%;
+  position: absolute;
+}
+
+#ship-2 {
+  width: 20%;
+  left: 5%;
+  top: 44%;
+  position: absolute;
+}
+
+#bird-1 {
+  top: 20%;
+  left: 70%;
+  width: 4%;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+#bird-2 {
+  top: 15%;
+  left: 75%;
+  width: 5%;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+#bird-3 {
+  top: 25%;
+  left: 75%;
+  width: 2%;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+#bird-4 {
+  top: 20%;
+  left: 80%;
+  width: 3%;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+#bird-5 {
+  top: 30%;
+  left: 80%;
+  width: 4%;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+#bird-6 {
+  top: 20%;
+  left: 20%;
+  width: 4%;
+  position: absolute;
+}
+
+#bird-7 {
+  top: 20%;
+  left: 25%;
+  width: 2%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+#bird-8 {
+  top: 15%;
+  left: 22%;
+  width: 5%;
+  position: absolute;
+}
